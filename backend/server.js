@@ -14,6 +14,10 @@ connectDB();
 
 const app = express();
 
+app.use(cors({
+  origin: ['https://ticket-support-frontend-sand.vercel.app', 'http://localhost:3000']
+}));
+
 // Middlewares
 app.use(cors());
 app.use(express.json());
