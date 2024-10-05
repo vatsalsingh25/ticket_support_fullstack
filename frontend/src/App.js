@@ -12,6 +12,7 @@ import NewTicket from "./pages/NewTicket";
 import Tickets from "./pages/Tickets";
 import Ticket from "./pages/Ticket";
 
+
 function App() {
   return (
     <>
